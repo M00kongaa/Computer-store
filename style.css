@@ -1,0 +1,236 @@
+/* الخطوط والتنسيق الأساسي */
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+
+h2 {
+    text-align: center;
+    color: #202020;
+}
+
+.container {
+    width: 90%;
+    height: 90%;
+    margin:auto;
+    padding: 20px;
+}
+
+
+
+
+/* الهيدر */
+
+
+
+
+#qw {
+    height: 100vh;
+    padding: 20px 0;
+    text-align: center;
+    background: url(tyu.jpg) center center/cover no-repeat;
+} 
+.ty{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+
+.ty img{
+
+    width: 80px;
+    height: 80px;
+    margin-left: 100px;
+}
+.ty nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    margin: 20px;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #202020;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+border-bottom: 2px double #3b3b3b;
+}
+
+header .er{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: left;
+    padding: 5px;
+    
+}
+
+header .er h1{
+    font-size: 50px;
+    color: #000000;
+    justify-content: left;
+
+}
+
+header .er p{
+    margin: 30px;
+    color: #000000;
+}
+
+
+
+
+
+
+/*  الأجهزة */
+#products {
+    padding: 40px 0;
+}
+
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(333px, 1fr));
+    gap: 20px;
+}
+
+.product {
+    background: #e1e1e19c;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.product img {
+    width: 150px; 
+    height: 150px;
+    border-radius: 10px;
+    margin: 10px;
+    opacity: 0.8;
+}
+.product img:hover{
+    opacity: 1;
+}
+
+del{
+    font-size: small;
+    padding: 10px;
+}
+
+.product button {
+    padding: 10px 15px;
+    margin-bottom: 2px;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.product button:hover {
+    background: #218838;
+}
+
+
+
+
+
+/* قسم سلة المشتريات */
+
+.total {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+
+/* التواصل */
+#contact{
+    background-color: #7a7a7a;
+}
+.contactinfo{
+    border-radius: 20px;
+    background-color: #b5b5b5;
+    padding: 40px;
+    display: flex;
+}
+.info{
+
+    width: 40%;
+}
+
+.info img {
+    width: 40px;
+}
+
+.info div{
+    margin: 50px;
+}
+
+.info ul{
+list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+form label {
+    /* display: block; */
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input,
+form textarea,
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background: #1e90ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+/*  حقوق الملكيه*/
+
+footer{
+    font-size: larger;
+    background-color: #7a7a7a;
+    text-align: center;
+    color: #ddd;
+}
+
